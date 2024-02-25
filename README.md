@@ -51,8 +51,6 @@ $ npm run test
 |   +-- main.ts // Main Nest Application
 |   +-- * // Other Nest Modules, non-global, same as common structure above
 +-- test // Jest testing
-+-- .env // Environment variables
-+-- .env.example // Example of environment variables
 +-- .gitignore // Git ignore file
 +-- .prettierrc // Prettier configuration
 +-- .prettierignore // Prettier ignore file
