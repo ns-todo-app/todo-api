@@ -39,3 +39,25 @@ $ npm install
 # unit tests
 $ npm run test
 ```
+
+## Code Structure
+
+```bash
++-- dist // Source build
++-- src
+|   +-- app.module.ts // Global Nest Module
+|   +-- app.service.spec.ts // Global Nest Service Unit test 
+|   +-- app.service.ts // Global Nest Service
+|   +-- main.ts // Main Nest Application
+|   +-- * // Other Nest Modules, non-global, same as common structure above
++-- test // Jest testing
++-- .env // Environment variables
++-- .env.example // Example of environment variables
++-- .gitignore // Git ignore file
++-- .prettierrc // Prettier configuration
++-- .prettierignore // Prettier ignore file
++--  nest-cli.json // Nest CLI configuration
++--  package.json // NPM package configuration
++--  tsconfig.build.json // Typescript build configuration
++--  tsconfig.json // Typescript configuration
+```
